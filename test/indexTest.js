@@ -5,7 +5,7 @@ describe('index.js', function () {
     it('returns a distance in feet', function () {
       expect(distanceFromHqInBlocks(43)).to.equal(1);
     });
- 
+
     it('returns a distance in feet', function () {
       expect(distanceFromHqInBlocks(50)).to.equal(8);
     });
