@@ -14,20 +14,10 @@ function distanceFromHqInBlocks(location) {
   }
 }
 
+function distanceFromHqInFeet(location) {
+  return distanceFromHqInBlocks(location) * 264;
+}
 
-// describe('distanceFromHqInBlocks()', function () {
-//   it('returns a distance in feet', function () {
-//     expect(distanceFromHqInBlocks(43)).to.equal(1);
-//   });
-//
-//   it('returns a distance in feet', function () {
-//     expect(distanceFromHqInBlocks(50)).to.equal(8);
-//   });
-//
-//   it('calculates distances below 42nd street', function () {
-//     expect(distanceFromHqInBlocks(34)).to.equal(8);
-//   });
-// });
 //
 // describe('distanceFromHqInFeet()', function () {
 //   it('returns a distance in feet', function () {
